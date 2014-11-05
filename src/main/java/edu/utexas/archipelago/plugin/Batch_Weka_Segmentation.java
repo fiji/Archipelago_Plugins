@@ -14,7 +14,10 @@ import ij.gui.GenericDialog;
 import ij.io.OpenDialog;
 import ij.plugin.PlugIn;
 
-import java.awt.*;
+import java.awt.Button;
+import java.awt.GraphicsEnvironment;
+import java.awt.Panel;
+import java.awt.TextField;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.BufferedReader;

@@ -4,22 +4,30 @@ import edu.utexas.archipelago.image.ImageBlockDeblock;
 import edu.utexas.clm.archipelago.Cluster;
 import edu.utexas.clm.archipelago.FijiArchipelago;
 import edu.utexas.clm.archipelago.data.Duplex;
-
-import edu.utexas.clm.archipelago.data.FileChunk;
 import ij.IJ;
 import ij.ImagePlus;
 import ij.VirtualStack;
 import ij.io.FileSaver;
-import trainableSegmentation.WekaSegmentation;
-import weka.classifiers.AbstractClassifier;
-import weka.core.Instances;
 
 import java.awt.image.ColorModel;
-import java.io.*;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.ObjectInputStream;
+import java.io.Serializable;
 import java.security.InvalidAlgorithmParameterException;
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.concurrent.*;
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
+
+import trainableSegmentation.WekaSegmentation;
+import weka.classifiers.AbstractClassifier;
+import weka.core.Instances;
 
 public class BatchWekaSegmentation
 {
