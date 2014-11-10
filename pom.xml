@@ -10,7 +10,7 @@
 	</parent>
 
 	<artifactId>Archipelago_Plugins</artifactId>
-	<version>0.5.2-SNAPSHOT</version>
+	<version>0.5.3-SNAPSHOT</version>
 
 	<name>plugins/Archipelago_Plugins.jar</name>
 	<description />
