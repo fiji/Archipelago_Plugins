@@ -67,5 +67,4 @@
 			<artifactId>weka-dev</artifactId>
 		</dependency>
 	</dependencies>
-
 </project>
