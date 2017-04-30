@@ -11,7 +11,7 @@
 
 	<groupId>sc.fiji</groupId>
 	<artifactId>Archipelago_Plugins</artifactId>
-	<version>0.5.3-SNAPSHOT</version>
+	<version>0.5.4-SNAPSHOT</version>
 
 	<name>Archipelago Plugins</name>
 	<description>Archipelago Plugins plugin for Fiji.</description>
