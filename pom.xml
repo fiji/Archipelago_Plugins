@@ -11,7 +11,7 @@
 
 	<groupId>sc.fiji</groupId>
 	<artifactId>Archipelago_Plugins</artifactId>
-	<version>0.5.4-SNAPSHOT</version>
+	<version>0.5.4</version>
 
 	<name>Archipelago Plugins</name>
 	<description>Archipelago Plugins plugin for Fiji.</description>
@@ -78,7 +78,7 @@
 	<scm>
 		<connection>scm:git:git://github.com/fiji/Archipelago_Plugins</connection>
 		<developerConnection>scm:git:git@github.com:fiji/Archipelago_Plugins</developerConnection>
-		<tag>HEAD</tag>
+		<tag>Archipelago_Plugins-0.5.4</tag>
 		<url>https://github.com/fiji/Archipelago_Plugins</url>
 	</scm>
 	<issueManagement>
