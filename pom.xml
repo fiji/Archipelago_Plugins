@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.scijava</groupId>
 		<artifactId>pom-scijava</artifactId>
-		<version>14.0.0</version>
+		<version>16.0.0</version>
 		<relativePath />
 	</parent>
 
@@ -95,6 +95,8 @@
 		<license.licenseName>gpl_v3</license.licenseName>
 		<license.copyrightOwners>Fiji developers.</license.copyrightOwners>
 		<license.projectName>Fiji distribution of ImageJ for the life sciences.</license.projectName>
+
+		<Trainable_Segmentation.version>3.2.12</Trainable_Segmentation.version>
 	</properties>
 
 	<repositories>
@@ -109,12 +111,6 @@
 		<dependency>
 			<groupId>sc.fiji</groupId>
 			<artifactId>Fiji_Archipelago</artifactId>
-			<exclusions>
-				<exclusion>
-					<groupId>jama</groupId>
-					<artifactId>jama</artifactId>
-				</exclusion>
-			</exclusions>
 		</dependency>
 		<dependency>
 			<groupId>sc.fiji</groupId>
