@@ -86,8 +86,8 @@
 		<url>https://github.com/fiji/Archipelago_Plugins/issues</url>
 	</issueManagement>
 	<ciManagement>
-		<system>Travis CI</system>
-		<url>https://travis-ci.org/fiji/Archipelago_Plugins</url>
+		<system>GitHub Actions</system>
+		<url>https://github.com/fiji/Archipelago_Plugins/actions</url>
 	</ciManagement>
 
 	<properties>
@@ -99,7 +99,7 @@
 		<Trainable_Segmentation.version>3.2.12</Trainable_Segmentation.version>
 
 		<!-- NB: Deploy releases to the SciJava Maven repository. -->
-		<releaseProfiles>deploy-to-scijava</releaseProfiles>
+		<releaseProfiles>sign,deploy-to-scijava</releaseProfiles>
 	</properties>
 
 	<repositories>
