@@ -76,7 +76,7 @@
 	</mailingLists>
 
 	<scm>
-		<connection>scm:git:git://github.com/fiji/Archipelago_Plugins</connection>
+		<connection>scm:git:https://github.com/fiji/Archipelago_Plugins</connection>
 		<developerConnection>scm:git:git@github.com:fiji/Archipelago_Plugins</developerConnection>
 		<tag>HEAD</tag>
 		<url>https://github.com/fiji/Archipelago_Plugins</url>
